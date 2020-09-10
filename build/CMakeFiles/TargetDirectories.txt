@@ -1,0 +1,3 @@
+/media/thanglmb/DATA/VNCProject/AICAM/dev/Server/ServerANPR/build/CMakeFiles/rebuild_cache.dir
+/media/thanglmb/DATA/VNCProject/AICAM/dev/Server/ServerANPR/build/CMakeFiles/anpr.dir
+/media/thanglmb/DATA/VNCProject/AICAM/dev/Server/ServerANPR/build/CMakeFiles/edit_cache.dir

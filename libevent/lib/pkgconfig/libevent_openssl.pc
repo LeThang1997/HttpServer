@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install
+exec_prefix=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install
+libdir=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install/lib
+includedir=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install/include
+
+Name: libevent_openssl
+Description: libevent_openssl adds openssl-based TLS support to libevent
+Version: 2.2.0
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_openssl
+Libs.private:   -L/usr/lib/x86_64-linux-gnu/libssl.so -L/usr/lib/x86_64-linux-gnu/libcrypto.so
+Cflags: -I${includedir} 
+

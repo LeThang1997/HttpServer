@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install
+exec_prefix=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install
+libdir=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install/lib
+includedir=/media/thanglmb/DATA/OpenSource/Ubuntu/libevent/build/install/include
+
+Name: libevent_pthreads
+Description: libevent_pthreads adds pthreads-based threading support to libevent
+Version: 2.2.0
+Requires: libevent
+Conflicts:
+Libs: -L${libdir} -levent_pthreads
+Libs.private:  
+Cflags: -I${includedir} 
+
