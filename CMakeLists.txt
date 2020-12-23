@@ -23,6 +23,7 @@ set(CURL_DIR libcurl.so)
 link_directories(${CMAKE_SOURCE_DIR}/libcurl/lib)
 include_directories(${CMAKE_SOURCE_DIR}/libcurl/include)
 
+include_directories(${CMAKE_SOURCE_DIR})
 #Setup
 file(GLOB SOURCES src/*.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
